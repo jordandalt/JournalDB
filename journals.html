@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>Water Institute WaSH-Related Journals Database</title>
+		<meta charset="utf8"/>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="journals.js"></script>
+	</head>
+	<body>
+		<form>
+			<h3>Toggle Columns</h3>
+			<label><input type="checkbox" id="journalname" value="journalname" >Journal Name</label>
+			<label><input type="checkbox" id="publisher" value="publisher" >Publisher</label>
+			<label><input type="checkbox" id="url" value="url" >Journal URL</label>
+			<label><input type="checkbox" id="if" value="if" >Impact Factor</label>
+			<label><input type="checkbox" id="if_year" value="if_year" >IF Year</label>
+			<label><input type="checkbox" id="five_if" value="five_if" >Five Year IF</label>
+			<label><input type="checkbox" id="h_index" value="h_index" >H Index</label>
+			<label><input type="checkbox" id="disc1" value="disc1" >Discipline 1</label>
+			<label><input type="checkbox" id="disc2" value="disc2" >Discipline 2</label>
+			<label><input type="checkbox" id="disc3" value="disc3" >Discipline 3</label>
+			<label><input type="checkbox" id="disc4" value="disc4" >Discipline 4</label>
+			<label><input type="checkbox" id="word_count" value="word_count" >Word Count</label>
+			<label><input type="checkbox" id="last_updated" value="last_updated" >Date Uploaded</label>
+			<label><input type="checkbox" id="oa_status" value="oa_status" >Open Access Status</label>
+			<label><input type="checkbox" id="oa_comments" value="oa_comments" >Open Access Comments</label>
+			<label><input type="checkbox" id="pub_status" value="pub_status" >Water Institute Published Status</label>
+			<label><input type="checkbox" id="contacts" value="contacts" >Contacts</label>
+			<label><input type="checkbox" id="comments" value="comments" >Additional Comments</label>
+			<h3>Sort Rows</h3>
+			<h3>Complex Filtering</h3>
+			<table>
+				<thead>
+					<tr>
+						<th>Journal Name</th>
+						<th>Publisher</th>
+						<th>Journal URL</th>
+						<th>Impact Factor</th>
+						<th>IF Year</th>
+						<th>Five Year IF</th>
+						<th>H Index</th>
+						<th>Discipline 1</th>
+						<th>Discipline 2</th>
+						<th>Discipline 3</th>
+						<th>Discipline 4</th>
+						<th>Word Count</th>
+						<th>Date Uploaded</th>
+						<th>Open Access Status</th>
+						<th>Open Access Comments</th>
+						<th>Water Institute Published Status</th>
+						<th>Contacts</th>
+						<th>Additional Comments</th>
+					</tr>
+				</thead>
+				<tbody id="journals">
+					<tr>
+						<td>Africa Journal (IAI)</td>
+						<td></td>
+						<td>http://www.internationalafricaninstitute.org/journal.html</td>
+						<td>1.042</td>
+						<td>0.855</td>
+						<td>2013</td>
+						<td></td>
+						<td>Area Studies</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>No</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+	<script src="list.min.js"></script>
+</html>
